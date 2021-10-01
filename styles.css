@@ -114,7 +114,35 @@ color: #EAAB1B;
     /********Section3***************/
     #section3{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+    }
+    #section3 > .burgers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .burgers > #column{
+       width: 30%;
+       background-color: red;
+       margin: 10px;
+       display: inline-flex;
+       justify-content: center;
+    }
+
+    #description{
+        background-color: rgb(59, 47, 221);
+        text-align: left;
+
+    }
+
+    #section3 > h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    #section3 > h2 > span{
+        color:#6CB840;
     }
 
 @media only screen and (max-width:750px ) {
