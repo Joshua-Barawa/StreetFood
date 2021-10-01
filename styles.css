@@ -116,6 +116,9 @@ color: #EAAB1B;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        background-color: #cfdac9;
+        opacity: 0.9;
+        
     }
     #section3 > .burgers{
         display: flex;
@@ -125,17 +128,28 @@ color: #EAAB1B;
 
     .burgers > #column{
        width: 30%;
-       background-color: red;
        margin: 10px;
        display: inline-flex;
        justify-content: center;
     }
-
     #description{
-        background-color: rgb(59, 47, 221);
-        text-align: left;
-
+        background-color: rgb(247, 247, 247);
+        margin-left: -120px;
+        border-bottom-right-radius: 50px;
+        z-index: -1;
+        height: 190px;
+        width: 50%;
     }
+
+    .burgers > #column > #description > p{
+        text-align: center;
+      padding-left: 100px;
+     }
+
+     .burgers > #column > #description > span{
+       font-weight: bold;
+
+     }
 
     #section3 > h2{
         text-align: center;
