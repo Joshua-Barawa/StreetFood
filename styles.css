@@ -2,11 +2,16 @@ body{
     margin: 0px;
     font-family: sans-serif;
 }
-.section1{
+
+/**********Section 1***********/
+
+#section1{
     background-color: #c7c4c4f6;
     height: 700px;
     width: 100%;
-    position: fixed;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0;
 }
 
 
@@ -14,13 +19,13 @@ body{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    margin: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding-top: 60px;
 }
 
  #link{
     text-decoration: none; 
     color: black; 
-    
     font-weight: 600;
 }
 
@@ -30,19 +35,16 @@ body{
     border-bottom-right-radius: 0%;
     border-bottom-left-radius: 100%;
     background-color: #6CB840;
-    position: fixed;
     top: 0;
     right: 0;
-    opacity: 0.7;
-    z-index: -1;
-  
+    position: absolute;
+    opacity: 0.5;
+
 }
 
 .p-header{
- 
     width: 500px;
     margin:100px 0px 0px 170px;
-    position: fixed;
 }
 .p-header > h1,h2,p{
     padding: 0px 20px 0px 50px;
@@ -53,7 +55,7 @@ body{
     color: #6CB840;
 }
 
-span{
+.p-header > h1 > span{
     color: #EAAB1B;
 }
 
@@ -74,14 +76,42 @@ border-radius: 25px 25px;
 border: none;
 color: white;
 font-weight: bold;
+text-decoration: none;
 }
 
+/**********Section 2***********/
+#section2{
+    position: relative;
+    display: flex;
+    
+    width: 80%;
+}
 
+#eat-together {
+   width: 50%;
+   text-align: center;
+    margin-top: 150px;
+    }
+    
 
+#eat-together > h2{
+font-size: 45px;
+}
 
-@media screen and (max-width:800px ) {
+#eat-together > p{
+    font-size: 20px;
+    }
+    
+
+@media only screen and (max-width:715px ) {
     .p-header{
-       margin: auto;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+    }
+
+    .blob{
+        width: 100%;
     }
     
 }
