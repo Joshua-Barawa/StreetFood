@@ -50,7 +50,11 @@ body{
 
 .p-header > h1{
     font-size: 60px;
-    color: yellowgreen;
+    color: #6CB840;
+}
+
+span{
+    color: #EAAB1B;
 }
 
 .p-header > h2{
@@ -63,11 +67,21 @@ body{
 
 .p-header > #order{
 background-color: #6CB840;
-padding: 20px 25px 20px 25px;
+padding: 15px 30px 15px 30px;
 font-size: 20px;
 margin: 25px 0px 20px 50px;
 border-radius: 25px 25px;
 border: none;
 color: white;
 font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:800px ) {
+    .p-header{
+       margin: auto;
+    }
+    
 }
