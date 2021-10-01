@@ -111,6 +111,12 @@ color: #EAAB1B;
     }
     
 
+    /********Section3***************/
+    #section3{
+        display: flex;
+        justify-content: center;
+    }
+
 @media only screen and (max-width:750px ) {
 
  /**********Section 1***********/
