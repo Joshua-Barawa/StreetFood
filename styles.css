@@ -179,6 +179,7 @@ color: #EAAB1B;
             padding-top: 5px;
             background-color:  #C9ECB5;
             height: 650px;
+            width: 100%;
         }
         #section4 > h2{
         text-align: center;
@@ -234,7 +235,16 @@ color: #EAAB1B;
         text-align: center;
         
      }
+     
 
+/********************section5**********************/
+#section5{
+    margin-top: 0px;
+    padding-top: 5px;
+    background-color:  #e2e6ab;
+    height: 650px;
+    width: 100%;
+}
 
 @media only screen and (max-width:750px ) {
 
