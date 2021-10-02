@@ -148,12 +148,14 @@ color: #EAAB1B;
        display: inline-flex;
        
     }
+
+
     #description{
         background-color: rgb(247, 247, 247);
         border-bottom-right-radius: 50px;
         height: 190px;
-        width: 100%;
-       z-index: -1;
+        width: 50%;
+        z-index: -1;
     }
 
     .burgers > #column > #description > h3{
@@ -168,6 +170,50 @@ color: #EAAB1B;
     font-size: 18px;
    
      }
+
+
+/***************Section4*********************/
+
+        #section4{
+            margin-top: 0px;
+            padding-top: 5px;
+            background-color:  #C9ECB5;
+            height: 650px;
+        }
+        #section4 > h2{
+        text-align: center;
+        font-size: 30px;
+        }
+
+        #section4 > h2 > span{
+            color:#6CB840;
+            }
+        
+
+#section4 > .combos > #special-combo{
+    background-color: rgb(25, 0, 139);
+    height: 400px;
+    }
+
+  
+    #section4 > .combos{
+        display: flex;
+    }
+
+    #section4 > .combos > .combos-images{
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    #section4 > .combos > .combos-images > #juice{
+        margin-top: -150px;
+        margin-left: 300px;
+     }
+
+    #section4 > .combos > .combos-images > #burger{
+       margin-left: -400px;
+       margin-top: 200px;
+    }
 
 
 @media only screen and (max-width:750px ) {
@@ -213,7 +259,7 @@ height: 100%;
 
 @media only screen and (max-width:800px ) {
 
-    /**********Section 2***********/
+    /**********Section 3***********/
     #section3{
         display: flex;
         justify-content: center;
@@ -221,13 +267,17 @@ height: 100%;
         height: 100%;
         flex-wrap: wrap;
     }
+
+    .share{
+        width: 80%;
+    }
     
     #description{
         width: 100%;
     }
 
     #column{
-     float: left;
+    width: 50%;
     }
         
     }
