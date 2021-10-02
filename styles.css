@@ -12,7 +12,7 @@ body{
 
 #section1{
     background-color: #c7c4c4f6;
-    height: 800px;
+    height: 700px;
     width: 100%;
     position: relative;
     margin-top: 0px;
@@ -121,47 +121,54 @@ color: #EAAB1B;
         flex-wrap: wrap;
         justify-content: center;
         background-color: #cfdac9;
-        opacity: 0.9;
-        
+        opacity: 0.9;  
     }
+
+    #section3 > h2{
+        font-size: 30px;
+    }
+
+    #section3 > h2 > span{
+        color:#6CB840;
+    }
+
+
+
     #section3 > .burgers{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
+
+
     .burgers > #column{
        width: 30%;
        margin: 10px;
        display: inline-flex;
-       justify-content: center;
+       
     }
     #description{
         background-color: rgb(247, 247, 247);
         border-bottom-right-radius: 50px;
-        z-index: -1;
         height: 190px;
-        width: 50%;
-        
+        width: 100%;
+       z-index: -1;
     }
+
+    .burgers > #column > #description > h3{
+        font-weight: bold;
+        margin: 5px 0px 5px 10px;
+       
+      }
 
     .burgers > #column > #description > p{
-        text-align: center;
-      padding-left: 100px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 18px;
+   
      }
 
-     .burgers > #column > #description > span{
-       font-weight: bold;
-
-     }
-
-    #section3 > h2{
-        text-align: center;
-        font-size: 30px;
-    }
-    #section3 > h2 > span{
-        color:#6CB840;
-    }
 
 @media only screen and (max-width:750px ) {
 
@@ -183,7 +190,7 @@ height: 100%;
 }
 
 
-@media only screen and (max-width:600px ) {
+@media only screen and (max-width:700px ) {
 
 /**********Section 2***********/
 #section2{
@@ -211,14 +218,16 @@ height: 100%;
         display: flex;
         justify-content: center;
         width: 100%;
+        height: 100%;
         flex-wrap: wrap;
     }
     
-    #eat-together {
-       width: 100%;
-       text-align: center;
-       margin: auto;
+    #description{
+        width: 100%;
+    }
+
+    #column{
+     float: left;
     }
         
     }
-
