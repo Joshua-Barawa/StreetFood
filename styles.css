@@ -1,13 +1,18 @@
 body{
     margin: 0px;
     font-family: sans-serif;
+   
+}
+
+.container{
+    width: 100%;
 }
 
 /**********Section 1***********/
 
 #section1{
     background-color: #c7c4c4f6;
-    height: 700px;
+    height: 800px;
     width: 100%;
     position: relative;
     margin-top: 0px;
@@ -87,7 +92,6 @@ text-decoration: none;
     justify-content: center;
     width: 100%;
     height: 600px;
-  
 }
 
 #eat-together {
@@ -134,11 +138,11 @@ color: #EAAB1B;
     }
     #description{
         background-color: rgb(247, 247, 247);
-        margin-left: -120px;
         border-bottom-right-radius: 50px;
         z-index: -1;
         height: 190px;
         width: 50%;
+        
     }
 
     .burgers > #column > #description > p{
@@ -162,6 +166,11 @@ color: #EAAB1B;
 @media only screen and (max-width:750px ) {
 
  /**********Section 1***********/
+
+ .section1{
+width: 100%;
+height: 100%;
+ }
     .p-header{
       margin: auto;
       width: 100%;
@@ -174,16 +183,16 @@ color: #EAAB1B;
 }
 
 
-@media only screen and (max-width:1000px ) {
+@media only screen and (max-width:600px ) {
 
 /**********Section 2***********/
 #section2{
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 100%;
     text-align: center;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
 #eat-together {
@@ -193,4 +202,23 @@ color: #EAAB1B;
 }
     
 }
+
+
+@media only screen and (max-width:800px ) {
+
+    /**********Section 2***********/
+    #section3{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    #eat-together {
+       width: 100%;
+       text-align: center;
+       margin: auto;
+    }
+        
+    }
 
