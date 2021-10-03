@@ -33,6 +33,22 @@ body{
     color: black; 
     font-weight: 600;
 }
+.links > .logo {
+    margin-top: -80px;
+    font-size: 50px;
+  }
+
+.links > .logo > span {
+    font-size: 120px;
+    margin-top: 0px;
+  }
+
+  .links > .logo > li {
+    font-size: 100px;
+    margin-top: 0px;
+  }
+
+
 
 .blob{
     height: 500px;
@@ -43,7 +59,8 @@ body{
     top: 0;
     right: 0;
     position: absolute;
-    opacity: 0.5;
+    z-index: -1;
+    
 
 }
 
@@ -155,6 +172,7 @@ color: #EAAB1B;
         border-bottom-right-radius: 50px;
         height: 190px;
         width: 50%;
+        margin-left: -150px;
         z-index: -1;
     }
 
@@ -168,6 +186,7 @@ color: #EAAB1B;
     text-align: center;
     margin-top: 0px;
     font-size: 18px;
+    margin-left: 50px;
    
      }
 
