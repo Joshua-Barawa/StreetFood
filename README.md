@@ -25,7 +25,7 @@ This project is a website where you can view available street food for you and y
 * Clone or download the project from my repo https://github.com/Joshua-Barawa/StreetFood
 * Extract the project 
 * Open with visual studio code
-* Or you can You can view it using my git hub pages https://joshua-barawa.github.io/Street-Food/
+* Or you can You can view it using my git hub pages https://joshua-barawa.github.io/StreetFood/
 
 ## Visuals
 This is a screenshot of the webpage
