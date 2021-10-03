@@ -278,7 +278,12 @@ color: #EAAB1B;
    border: none;
    font-size: 18px;
    font-weight: bold;
+    
 }
+#section5 > form > #email:focus{
+    outline: none;
+     
+ }
 
 #section5 > form > #btn{
     padding: 12px;
@@ -297,10 +302,14 @@ color: #EAAB1B;
 
  #section6{
      margin-top: 50px;
-    background-color:  #C9ECB5;
+    background-color:  #cfe9c1;
     height: 300px;
     width: 100%;
-    opacity: 0.5;
+    display: flex;
+   
+}
+#section6 > #days > p , #street> p > span, #follow > p > span{
+    font-weight: bold;
 }
 
 
