@@ -241,12 +241,13 @@ color: #EAAB1B;
 #section5{
     margin-top: 0px;
     padding-top: 5px;
-    background-color:  #dfe2b6;
-    height: 600px;
+    background-color:  #e6e1c8;
+    height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 
 #section5 > h2 > span{
@@ -275,7 +276,7 @@ color: #EAAB1B;
    width: 500px;
    border-radius: 25px 25px;
    border: none;
-   font-size: 20px;
+   font-size: 18px;
    font-weight: bold;
 }
 
@@ -292,6 +293,15 @@ color: #EAAB1B;
     color: white
  }
 
+ /**********Section 6***********/
+
+ #section6{
+     margin-top: 50px;
+    background-color:  #C9ECB5;
+    height: 300px;
+    width: 100%;
+    opacity: 0.5;
+}
 
 
 
