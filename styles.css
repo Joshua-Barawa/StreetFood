@@ -244,7 +244,58 @@ color: #EAAB1B;
     background-color:  #dfe2b6;
     height: 600px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+#section5 > h2 > span{
+    color: #6CB840;
+}
+
+#section5 > p {
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 400px;
+    font-size: 20px;
+}
+
+#section5 > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0px;
+}
+
+#section5 > form > #email{
+   padding: 15px;
+   width: 500px;
+   border-radius: 25px 25px;
+   border: none;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#section5 > form > #btn{
+    padding: 12px;
+    width: 200px;
+    border-radius: 25px 25px;
+    border: none;
+    background-color: #6CB840;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white
+ }
+
+
+
+
+
 
 @media only screen and (max-width:750px ) {
 
