@@ -306,11 +306,36 @@ color: #EAAB1B;
     height: 300px;
     width: 100%;
     display: flex;
+    justify-content: center;
    
 }
 #section6 > #days > p , #street> p > span, #follow > p > span{
     font-weight: bold;
 }
+
+#section6 > #street , #follow ,#instagram{
+margin-top: 80px;
+}
+
+#section6 > #days{
+    margin-top: 60px;
+    height: 200px;
+    border-right-style:  dashed;
+}
+
+#section6 > #follow{
+    margin-left: 200px;
+}
+
+#section6 > #instagram > a{
+background-color: #6CB840;
+text-decoration: none;
+padding: 7px 17px;
+color: white;
+font-weight: bold;
+
+}
+
 
 
 
